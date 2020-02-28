@@ -1,0 +1,216 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 8bitcpu:28C16 U?
+U 1 1 5E516167
+P 2300 5600
+F 0 "U?" H 2300 6881 50  0000 C CNN
+F 1 "28C16" H 2300 6790 50  0000 C CNN
+F 2 "" H 2300 5600 50  0001 C CNN
+F 3 "" H 2300 5600 50  0001 C CNN
+	1    2300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:CC56-12EWA U?
+U 1 1 5E518BE1
+P 4550 5350
+F 0 "U?" H 4550 6017 50  0000 C CNN
+F 1 "CC56-12EWA" H 4550 5926 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12EWA" H 4550 4750 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12EWA.pdf" H 4120 5380 50  0001 C CNN
+	1    4550 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4500 2300 4250
+$Comp
+L power:VCC #PWR?
+U 1 1 5E51B7AD
+P 2300 4250
+F 0 "#PWR?" H 2300 4100 50  0001 C CNN
+F 1 "VCC" H 2317 4423 50  0000 C CNN
+F 2 "" H 2300 4250 50  0001 C CNN
+F 3 "" H 2300 4250 50  0001 C CNN
+	1    2300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E51C035
+P 2300 6700
+F 0 "#PWR?" H 2300 6450 50  0001 C CNN
+F 1 "GND" H 2305 6527 50  0000 C CNN
+F 2 "" H 2300 6700 50  0001 C CNN
+F 3 "" H 2300 6700 50  0001 C CNN
+	1    2300 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 6350 2300 6700
+$Comp
+L Timer:NE555 U?
+U 1 1 5E52036F
+P 2350 2000
+F 0 "U?" H 2350 2581 50  0000 C CNN
+F 1 "NE555" H 2350 2490 50  0000 C CNN
+F 2 "" H 2350 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 2350 2000 50  0001 C CNN
+	1    2350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E520D49
+P 2350 2900
+F 0 "#PWR?" H 2350 2650 50  0001 C CNN
+F 1 "GND" H 2355 2727 50  0000 C CNN
+F 2 "" H 2350 2900 50  0001 C CNN
+F 3 "" H 2350 2900 50  0001 C CNN
+	1    2350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5E520ED6
+P 2350 1300
+F 0 "#PWR?" H 2350 1150 50  0001 C CNN
+F 1 "VCC" H 2367 1473 50  0000 C CNN
+F 2 "" H 2350 1300 50  0001 C CNN
+F 3 "" H 2350 1300 50  0001 C CNN
+	1    2350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E521109
+P 3150 1700
+F 0 "R?" H 3220 1746 50  0000 L CNN
+F 1 "100" H 3220 1655 50  0000 L CNN
+F 2 "" V 3080 1700 50  0001 C CNN
+F 3 "~" H 3150 1700 50  0001 C CNN
+	1    3150 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2000 3150 2000
+Wire Wire Line
+	3150 2000 3150 1850
+$Comp
+L power:VCC #PWR?
+U 1 1 5E52170A
+P 3150 1300
+F 0 "#PWR?" H 3150 1150 50  0001 C CNN
+F 1 "VCC" H 3167 1473 50  0000 C CNN
+F 2 "" H 3150 1300 50  0001 C CNN
+F 3 "" H 3150 1300 50  0001 C CNN
+	1    3150 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 2000
+Wire Wire Line
+	1650 1800 1650 2500
+Wire Wire Line
+	1650 2500 2850 2500
+Wire Wire Line
+	1650 1800 1850 1800
+Wire Wire Line
+	2350 2400 2350 2900
+Wire Wire Line
+	1450 2000 1450 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5E527254
+P 1450 2900
+F 0 "#PWR?" H 1450 2650 50  0001 C CNN
+F 1 "GND" H 1455 2727 50  0000 C CNN
+F 2 "" H 1450 2900 50  0001 C CNN
+F 3 "" H 1450 2900 50  0001 C CNN
+	1    1450 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2500 1450 2900
+$Comp
+L Device:C C?
+U 1 1 5E526AAB
+P 1450 2350
+F 0 "C?" H 1565 2396 50  0000 L CNN
+F 1 "10n" H 1565 2305 50  0000 L CNN
+F 2 "" H 1488 2200 50  0001 C CNN
+F 3 "~" H 1450 2350 50  0001 C CNN
+	1    1450 2350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2000 1850 2000
+$Comp
+L Device:R R?
+U 1 1 5E52B886
+P 3150 2250
+F 0 "R?" H 3220 2296 50  0000 L CNN
+F 1 "1k" H 3220 2205 50  0000 L CNN
+F 2 "" V 3080 2250 50  0001 C CNN
+F 3 "~" H 3150 2250 50  0001 C CNN
+	1    3150 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2500 2850 2200
+Connection ~ 2850 2500
+Wire Wire Line
+	2850 2500 3150 2500
+Wire Wire Line
+	3150 2500 3150 2400
+Wire Wire Line
+	3150 2100 3150 2000
+NoConn ~ 1850 2200
+Wire Wire Line
+	2350 1600 2350 1300
+Wire Wire Line
+	3150 1300 3150 1550
+$Comp
+L Device:C C?
+U 1 1 5E52EAE1
+P 3150 2650
+F 0 "C?" H 3265 2696 50  0000 L CNN
+F 1 "100n" H 3265 2605 50  0000 L CNN
+F 2 "" H 3188 2500 50  0001 C CNN
+F 3 "~" H 3150 2650 50  0001 C CNN
+	1    3150 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 2500
+$Comp
+L power:GND #PWR?
+U 1 1 5E52EF2E
+P 3150 2900
+F 0 "#PWR?" H 3150 2650 50  0001 C CNN
+F 1 "GND" H 3155 2727 50  0000 C CNN
+F 2 "" H 3150 2900 50  0001 C CNN
+F 3 "" H 3150 2900 50  0001 C CNN
+	1    3150 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2900 3150 2800
+Wire Wire Line
+	2850 1800 2950 1800
+Wire Wire Line
+	2950 1800 2950 1500
+Text Label 2950 1500 3    50   ~ 0
+CLK2
+$EndSCHEMATC
