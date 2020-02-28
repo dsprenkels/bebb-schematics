@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74LS245 U?
+L 74xx:74LS245 U1
 U 1 1 5E53157D
 P 2700 5100
 F 0 "U?" V 2746 4256 50  0000 R CNN
@@ -25,7 +25,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 2700 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:74LS173 U?
+L 74xx:74LS173 U2
 U 1 1 5E531583
 P 4900 5150
 F 0 "U?" V 4854 6094 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 4900 5150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS173 U?
+L 74xx:74LS173 U4
 U 1 1 5E531589
 P 7200 5150
 F 0 "U?" V 7154 6094 50  0000 L CNN
@@ -283,8 +283,6 @@ NoConn ~ 8500 3700
 NoConn ~ 8600 3700
 NoConn ~ 6200 3700
 NoConn ~ 6300 3700
-Text GLabel 1050 4100 0    50   Input ~ 0
-CLK
 Wire Wire Line
 	1050 4100 4500 4100
 Wire Wire Line
@@ -321,7 +319,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 6650 2250 6650
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR03
 U 1 1 5E531678
 P 2250 6650
 F 0 "#PWR?" H 2250 6500 50  0001 C CNN
@@ -332,7 +330,7 @@ F 3 "" H 2250 6650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D9
 U 1 1 5E53167E
 P 4100 7050
 F 0 "D?" V 4139 6933 50  0000 R CNN
@@ -343,7 +341,7 @@ F 3 "~" H 4100 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D10
 U 1 1 5E531684
 P 4300 7050
 F 0 "D?" V 4339 6933 50  0000 R CNN
@@ -354,7 +352,7 @@ F 3 "~" H 4300 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D11
 U 1 1 5E53168A
 P 4500 7050
 F 0 "D?" V 4539 6933 50  0000 R CNN
@@ -365,7 +363,7 @@ F 3 "~" H 4500 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D12
 U 1 1 5E531690
 P 4700 7050
 F 0 "D?" V 4739 6933 50  0000 R CNN
@@ -376,7 +374,7 @@ F 3 "~" H 4700 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D13
 U 1 1 5E531696
 P 4900 7050
 F 0 "D?" V 4939 6933 50  0000 R CNN
@@ -387,7 +385,7 @@ F 3 "~" H 4900 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D14
 U 1 1 5E53169C
 P 5100 7050
 F 0 "D?" V 5139 6933 50  0000 R CNN
@@ -398,7 +396,7 @@ F 3 "~" H 5100 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D15
 U 1 1 5E5316A2
 P 5300 7050
 F 0 "D?" V 5339 6933 50  0000 R CNN
@@ -409,7 +407,7 @@ F 3 "~" H 5300 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D16
 U 1 1 5E5316A8
 P 5500 7050
 F 0 "D?" V 5539 6933 50  0000 R CNN
@@ -501,7 +499,7 @@ Connection ~ 4800 7400
 Wire Wire Line
 	4800 7400 4700 7400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 5E5316DE
 P 4800 7650
 F 0 "#PWR?" H 4800 7400 50  0001 C CNN
@@ -512,7 +510,7 @@ F 3 "" H 4800 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR012
 U 1 1 5E5316E4
 P 7000 3100
 F 0 "#PWR?" H 7000 2950 50  0001 C CNN
@@ -523,7 +521,7 @@ F 3 "" H 7000 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR014
 U 1 1 5E5316EA
 P 8100 5150
 F 0 "#PWR?" H 8100 5000 50  0001 C CNN
@@ -534,7 +532,7 @@ F 3 "" H 8100 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR09
 U 1 1 5E5316F0
 P 5800 5150
 F 0 "#PWR?" H 5800 5000 50  0001 C CNN
@@ -545,7 +543,7 @@ F 3 "" H 5800 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR02
 U 1 1 5E5316F6
 P 1900 5100
 F 0 "#PWR?" H 1900 4950 50  0001 C CNN
@@ -556,7 +554,7 @@ F 3 "" H 1900 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 5E5316FC
 P 3500 5100
 F 0 "#PWR?" H 3500 4850 50  0001 C CNN
@@ -567,7 +565,7 @@ F 3 "" H 3500 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 5E531702
 P 4000 5150
 F 0 "#PWR?" H 4000 4900 50  0001 C CNN
@@ -578,7 +576,7 @@ F 3 "" H 4000 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR010
 U 1 1 5E531708
 P 6300 5150
 F 0 "#PWR?" H 6300 4900 50  0001 C CNN
@@ -589,7 +587,7 @@ F 3 "" H 6300 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR015
 U 1 1 5E53170E
 P 9000 3100
 F 0 "#PWR?" H 9000 2850 50  0001 C CNN
@@ -602,7 +600,7 @@ $EndComp
 Wire Wire Line
 	5900 4000 5900 3700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR011
 U 1 1 5E531716
 P 6700 3100
 F 0 "#PWR?" H 6700 2850 50  0001 C CNN
@@ -613,7 +611,7 @@ F 3 "" H 6700 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR06
 U 1 1 5E53171C
 P 4700 3100
 F 0 "#PWR?" H 4700 2950 50  0001 C CNN
@@ -624,7 +622,7 @@ F 3 "" H 4700 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS181 U?
+L 74xx:74LS181 U5
 U 1 1 5E531722
 P 8000 3100
 F 0 "U?" V 7954 2056 50  0000 R CNN
@@ -635,7 +633,7 @@ F 3 "74xx/74F181.pdf" H 8000 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L 74xx:74LS181 U?
+L 74xx:74LS181 U3
 U 1 1 5E531728
 P 5700 3100
 F 0 "U?" V 5654 2056 50  0000 R CNN
@@ -756,7 +754,7 @@ Text HLabel 4700 4200 1    50   Input ~ 0
 Text HLabel 4300 3950 1    50   Input ~ 0
 ACLR
 $Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 5E53165C
 P 5000 4200
 F 0 "#PWR?" H 5000 3950 50  0001 C CNN
@@ -771,7 +769,7 @@ CARRYIN
 Text HLabel 5900 4000 3    50   Output ~ 0
 CF
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 5E5300CE
 P 4100 6750
 F 0 "R?" H 4170 6796 50  0000 L CNN
@@ -782,7 +780,7 @@ F 3 "~" H 4100 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R10
 U 1 1 5E547E3A
 P 4300 6750
 F 0 "R?" H 4370 6796 50  0000 L CNN
@@ -793,7 +791,7 @@ F 3 "~" H 4300 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R11
 U 1 1 5E5528C6
 P 4500 6750
 F 0 "R?" H 4570 6796 50  0000 L CNN
@@ -804,7 +802,7 @@ F 3 "~" H 4500 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R12
 U 1 1 5E55D334
 P 4700 6750
 F 0 "R?" H 4770 6796 50  0000 L CNN
@@ -815,7 +813,7 @@ F 3 "~" H 4700 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R13
 U 1 1 5E567DAE
 P 4900 6750
 F 0 "R?" H 4970 6796 50  0000 L CNN
@@ -826,7 +824,7 @@ F 3 "~" H 4900 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R14
 U 1 1 5E572834
 P 5100 6750
 F 0 "R?" H 5170 6796 50  0000 L CNN
@@ -837,7 +835,7 @@ F 3 "~" H 5100 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R15
 U 1 1 5E57D2C6
 P 5300 6750
 F 0 "R?" H 5370 6796 50  0000 L CNN
@@ -848,7 +846,7 @@ F 3 "~" H 5300 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R16
 U 1 1 5E587D64
 P 5500 6750
 F 0 "R?" H 5570 6796 50  0000 L CNN
@@ -873,7 +871,7 @@ Wire Wire Line
 	5000 4600 5000 4200
 Connection ~ 5000 4600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR013
 U 1 1 5E5C36BD
 P 7300 4200
 F 0 "#PWR?" H 7300 3950 50  0001 C CNN
@@ -899,4 +897,6 @@ Wire Wire Line
 Connection ~ 7200 4600
 Wire Bus Line
 	1750 3000 1750 3800
+Text HLabel 1050 4100 0    50   Input ~ 0
+CLK
 $EndSCHEMATC
