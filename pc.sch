@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 6 6
 Title "Program counter"
-Date "2020-02-29"
+Date "2020-03-01"
 Rev ""
 Comp "Daan & Marrit"
 Comment1 ""
@@ -14,13 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 6200 5600 2    50   ~ 0
-Q15
+Q8
 Text Label 6200 5500 2    50   ~ 0
-Q14
+Q9
 Text Label 6200 5400 2    50   ~ 0
-Q13
+Q10
 Text Label 6200 5300 2    50   ~ 0
-Q12
+Q11
 Wire Wire Line
 	6200 5600 6000 5600
 Wire Wire Line
@@ -30,13 +30,13 @@ Wire Wire Line
 Wire Wire Line
 	6200 5300 6000 5300
 Text Label 6200 5200 2    50   ~ 0
-Q11
+Q12
 Text Label 6200 5100 2    50   ~ 0
-Q10
+Q13
 Text Label 6200 5000 2    50   ~ 0
-Q9
+Q14
 Text Label 6200 4900 2    50   ~ 0
-Q8
+Q15
 Wire Wire Line
 	6200 5200 6000 5200
 Wire Wire Line
@@ -45,14 +45,14 @@ Wire Wire Line
 	6000 5000 6200 5000
 Wire Wire Line
 	6200 4900 6000 4900
-Text Label 4050 5600 2    50   ~ 0
+Text Label 4050 4900 2    50   ~ 0
 Q7
 Text Label 4050 5500 2    50   ~ 0
-Q6
+Q1
 Text Label 4050 5400 2    50   ~ 0
-Q5
+Q2
 Text Label 4050 5300 2    50   ~ 0
-Q4
+Q3
 Wire Wire Line
 	4050 5600 3850 5600
 Wire Wire Line
@@ -62,12 +62,12 @@ Wire Wire Line
 Wire Wire Line
 	4050 5300 3850 5300
 Text Label 4050 5200 2    50   ~ 0
-Q3
+Q4
 Text Label 4050 5100 2    50   ~ 0
-Q2
+Q5
 Text Label 4050 5000 2    50   ~ 0
-Q1
-Text Label 4050 4900 2    50   ~ 0
+Q6
+Text Label 4050 5600 2    50   ~ 0
 Q0
 Wire Wire Line
 	4050 5200 3850 5200
@@ -237,21 +237,21 @@ F 3 "" H 7300 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4750 5600 0    50   ~ 0
-A7
+A8
 Text Label 4750 5500 0    50   ~ 0
-A6
+A9
 Text Label 4750 5400 0    50   ~ 0
-A5
+A10
 Text Label 4750 5300 0    50   ~ 0
-A4
+A11
 Text Label 4750 5200 0    50   ~ 0
-A3
+A12
 Text Label 4750 5100 0    50   ~ 0
-A2
+A13
 Text Label 4750 5000 0    50   ~ 0
-A1
+A14
 Text Label 4750 4900 0    50   ~ 0
-A0
+A15
 Wire Wire Line
 	5000 5600 4750 5600
 Wire Wire Line
@@ -345,21 +345,21 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 5500 5400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 2600 5600 0    50   ~ 0
-A7
-Text Label 2600 5500 0    50   ~ 0
-A6
-Text Label 2600 5400 0    50   ~ 0
-A5
-Text Label 2600 5300 0    50   ~ 0
-A4
-Text Label 2600 5200 0    50   ~ 0
-A3
-Text Label 2600 5100 0    50   ~ 0
-A2
-Text Label 2600 5000 0    50   ~ 0
-A1
-Text Label 2600 4900 0    50   ~ 0
 A0
+Text Label 2600 5500 0    50   ~ 0
+A1
+Text Label 2600 5400 0    50   ~ 0
+A2
+Text Label 2600 5300 0    50   ~ 0
+A3
+Text Label 2600 5200 0    50   ~ 0
+A4
+Text Label 2600 5100 0    50   ~ 0
+A5
+Text Label 2600 5000 0    50   ~ 0
+A6
+Text Label 2600 4900 0    50   ~ 0
+A7
 Wire Wire Line
 	2850 5600 2600 5600
 Wire Wire Line
