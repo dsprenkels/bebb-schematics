@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title "Output module"
 Date "2020-02-28"
 Rev ""
@@ -227,21 +227,13 @@ A6
 Text Label 9450 2450 0    50   ~ 0
 A7
 Wire Wire Line
-	7400 1800 7150 1800
+	7400 1800 7250 1800
 Wire Wire Line
-	7400 1900 7150 1900
+	7400 1900 7250 1900
 Wire Wire Line
-	7400 2000 7150 2000
+	7400 2000 7250 2000
 Wire Wire Line
-	7400 2100 7150 2100
-Entry Wire Line
-	7150 1800 7050 1700
-Entry Wire Line
-	7150 1900 7050 1800
-Entry Wire Line
-	7150 2000 7050 1900
-Entry Wire Line
-	7150 2100 7050 2000
+	7400 2100 7250 2100
 Wire Wire Line
 	7400 2700 6900 2700
 Wire Wire Line
@@ -341,21 +333,13 @@ A2
 Text Label 6600 1800 2    50   ~ 0
 A3
 Wire Wire Line
-	5500 1800 5250 1800
+	5500 1800 5350 1800
 Wire Wire Line
-	5500 1900 5250 1900
+	5500 1900 5350 1900
 Wire Wire Line
-	5500 2000 5250 2000
+	5500 2000 5350 2000
 Wire Wire Line
-	5500 2100 5250 2100
-Entry Wire Line
-	5250 1800 5150 1700
-Entry Wire Line
-	5250 1900 5150 1800
-Entry Wire Line
-	5250 2000 5150 1900
-Entry Wire Line
-	5250 2100 5150 2000
+	5500 2100 5350 2100
 Wire Wire Line
 	5500 2700 5000 2700
 Wire Wire Line
@@ -393,13 +377,6 @@ Wire Wire Line
 Connection ~ 5000 2400
 Wire Wire Line
 	5000 2400 5000 2700
-Wire Bus Line
-	7050 950  5150 950 
-Wire Bus Line
-	5150 950  4850 950 
-Connection ~ 5150 950 
-Text HLabel 4850 950  0    50   Input ~ 0
-DATA
 Text Label 3350 1600 3    50   ~ 0
 CLK2
 Wire Wire Line
@@ -552,22 +529,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 2750 2100 50  0001 C CNN
 	1    2750 2100
 	1    0    0    -1  
 $EndComp
-Text Label 7150 2100 0    50   ~ 0
-DATA0
-Text Label 7150 2000 0    50   ~ 0
-DATA1
-Text Label 7150 1900 0    50   ~ 0
-DATA2
-Text Label 7150 1800 0    50   ~ 0
-DATA3
-Text Label 5250 2100 0    50   ~ 0
-DATA4
-Text Label 5250 2000 0    50   ~ 0
-DATA5
-Text Label 5250 1900 0    50   ~ 0
-DATA6
-Text Label 5250 1800 0    50   ~ 0
-DATA7
 $Comp
 L 74xx:74LS73 U10
 U 2 1 5E69BD17
@@ -1040,12 +1001,24 @@ F 3 "" H 9350 5100 50  0001 C CNN
 	1    9350 5100
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	5150 950  5150 2000
+Text HLabel 7250 1800 0    50   Input ~ 0
+DATA3
+Text HLabel 7250 1900 0    50   Input ~ 0
+DATA2
+Text HLabel 7250 2000 0    50   Input ~ 0
+DATA1
+Text HLabel 7250 2100 0    50   Input ~ 0
+DATA0
+Text HLabel 5350 1800 0    50   Input ~ 0
+DATA7
+Text HLabel 5350 1900 0    50   Input ~ 0
+DATA6
+Text HLabel 5350 2000 0    50   Input ~ 0
+DATA5
+Text HLabel 5350 2100 0    50   Input ~ 0
+DATA4
 Wire Bus Line
 	6700 1700 6700 3800
-Wire Bus Line
-	7050 950  7050 2000
 Wire Bus Line
 	8600 1700 8600 2450
 Wire Bus Line
