@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "8-bit CPU"
-Date "2020-02-22"
+Date "2020-03-19"
 Rev "v1"
 Comp "Daan & Marrit"
 Comment1 ""
@@ -467,4 +467,10 @@ Wire Wire Line
 	6400 4500 6850 4500
 Wire Wire Line
 	6850 2750 6850 4500
+$Sheet
+S 1150 2750 1050 650 
+U 5E73E328
+F0 "Address register" 50
+F1 "address_register.sch" 50
+$EndSheet
 $EndSCHEMATC

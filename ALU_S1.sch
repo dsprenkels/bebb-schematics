@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title "ALU S1 Logic"
-Date "2020-03-01"
+Date "2020-03-19"
 Rev ""
 Comp "Daan & Marrit"
 Comment1 ""

@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title "Output module"
-Date "2020-02-28"
+Date "2020-03-19"
 Rev ""
 Comp "Daan & Marrit"
 Comment1 ""

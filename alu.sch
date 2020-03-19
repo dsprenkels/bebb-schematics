@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title "ALU"
-Date "2020-02-22"
+Date "2020-03-19"
 Rev "v1"
 Comp "Daan & Marrit"
 Comment1 ""
